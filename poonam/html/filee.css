@@ -1,0 +1,29 @@
+ *{
+    margin:0;
+    padding:0;
+    position:bottom;
+    font-family: :'poppins',sans-serif;
+    box-sizing:border-box;
+
+ }
+ 
+ .footer{
+    margin-top:150px;
+    width:500%;
+    padding:50px 15%;
+    background:#333;
+    color:#efefef;
+    display:flex;
+    justify-content: left;
+
+ }
+ .footer div{
+    text-align:center;
+ }
+ 
+ .social-icons{
+    margin-top:30px;
+ }
+ .social-icons{
+    font-size:22px}
+ 

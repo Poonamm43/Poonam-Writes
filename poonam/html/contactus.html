@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body{background:url(img/contact.avif) no-repeat;
+background-size: cover;}</style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Contact us Page</title>
+</head>
+
+ 
+
+	<!-- banner section -->
+	<section class="banner">
+		<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20230822131732/images.png"
+			alt="Welcome to our Contact Us page">
+		<h1>Get in Touch With Us</h1>
+		<p><h3 style="color:navy";>We're here to answer any questions you may have!.</h3></p>
+	</section>
+
+	<!-- Contact form -->
+	<section class="contact-form">
+		<div class="form-container">
+			<h2>Your Details</h2>
+			<style> 
+			.container {
+				border: 1px solid black;
+				height: 200px;
+				position: relative;
+			  }
+		  
+			  button {
+				position: absolute;
+				left: 10%;
+				transform: translateX(-50%);
+			  }
+			 </style>
+			
+			<form action="#" method="POST" >
+
+				<h5><label  for="name">Name: &nbsp;&nbsp;&nbsp;</label>
+				<input type="text" id="name" name="name" required> <br> 
+                 
+				<label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+				<input type="email" id="email" name="email" required> <br>
+                  
+				<label for="phone">Phone:&nbsp; &nbsp;&nbsp;  </label>
+				<input type="tel" id="phone" name="phone"> <br>
+                
+                
+				<label for="message">Message: </label>
+				<textarea id="message" name="message" rows="4"  required></textarea> <br><br></h5>
+                
+ 
+				<button   type="submit" class="submit-button" >Submit</button><br>
+				 
+			</form>
+		</div>
+	</section>
+
+	<!-- Company contact info -->
+	<section class="contact-info">
+		<h2>Contact Information</h2>
+		<address><b>
+			Infinite comuter solutions<br></b>
+			whitefield<br>
+			bangalore, Karnataka<br>
+			Phone: <a href="tel:1234567890">+91-9880236005</a><br>
+			Email: <a href="mailto:info@example.com">MYHR@infinite.com</a>
+		</address>
+	</section>
+
+	<!-- Footer section -->
+	<footer>
+		<p>© 2023 infinitecomputer solutions Company. All rights reserved.</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>

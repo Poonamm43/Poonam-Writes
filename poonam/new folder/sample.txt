@@ -1,0 +1,11 @@
+ Volume in drive D has no label.
+ Volume Serial Number is A4D0-A4C1
+
+ Directory of D:\poonam
+
+09/21/2023  02:06 AM    <DIR>          .
+09/21/2023  02:06 AM    <DIR>          ..
+09/21/2023  12:39 AM    <DIR>          html
+09/21/2023  02:06 AM                 0 sample.txt
+               1 File(s)              0 bytes
+               3 Dir(s)  297,130,995,712 bytes free
